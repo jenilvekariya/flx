@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>flex-direction</title>
+
+    <style type="text/css">
+
+      body {
+        margin: 110;
+        padding: 100;
+        font-family: verdana;
+      }
+
+      .main-container {
+        border: 10px double #000000;
+        /* display: flex; */ /* block level flex container */
+        display: inline-flex; /* inline flex container */
+        
+        /* flex-direction: row; */ /* left to right */
+        /*flex-direction: row-reverse;*/  /* right to left */
+         /*flex-direction: column;/* top to bottom */
+        flex-direction: column-reverse; /* bottom to top */
+      }
+
+      .item {
+        color: #ffffff;
+        font-size: 1rem;
+        padding: 0.75rem;
+        text-align: center;
+      }
+
+      .item-1 {
+        background-color:#cb00cb;
+      }
+
+      .item-2 {
+        background-color:#7c00e9;
+      }
+
+      .item-3 {
+        background-color:#490092;
+      }
+
+      .item-4 {
+        background-color:#ff0077;
+      }
+
+      .item-5 {
+        background-color:#f400f4;
+      }
+      
+      .item-6 {
+        background-color:#00dc75;
+      }
+
+      .item-7 {
+        background-color:#00ce22;
+      }
+
+      .item-8 {
+        background-color:#03a700;
+      }
+
+      .item-9 {
+        background-color: #009205;
+      }
+      
+      .item-10 {
+        background-color:#006f30;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="main-container">
+      <div class="item item-1">item-1</div>
+      <div class="item item-2">item-2</div>
+      <div class="item item-3">item-3</div>
+      <div class="item item-4">item-4</div>
+      <div class="item item-5">item-5</div>
+      <div class="item item-6">item-6</div>
+      <div class="item item-7">item-7</div>
+      <div class="item item-8">item-8</div>
+      <div class="item item-9">item-9</div>
+      <div class="item item-10">item-10</div>
+    </div>
+    
+  </body>
+  
+</html>
